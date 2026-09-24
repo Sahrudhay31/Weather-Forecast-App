@@ -1,0 +1,14 @@
+{
+  "name": "weather-forecast-app",
+  "version": "1.0.0",
+  "description": "Full-stack Weather Forecast Application deployed on Vercel",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "node server/server.js",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start"
+  },
+  "dependencies": {
+    "node-cache": "^5.1.2"
+  }
+}
